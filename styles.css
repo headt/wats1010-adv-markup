@@ -1,1 +1,68 @@
 /* Styles for the Advanced Markup assignment. */
+
+html
+h1 {
+  text-align: center;
+  font-family: Georgia;
+  font-style: italic;
+  background-image: url("https://www.wade.org/wp-content/uploads/2013/04/well_background.png");
+  font-size: 50px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+  padding-bottom: .5cm;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 5px;
+  padding-top: .5cm;
+}
+nav ul li {
+  display: inline;
+}
+a.active {
+  font-weight:bold;
+}
+#sidebar {
+  width: 250px;
+  float: right;
+  background: white;
+  color: grey;
+  margin: 20px;
+  padding: 10px;
+  font-family: Verdana;
+  border: 5px solid black;
+  text-align: center;
+}
+#caption{
+  font-style: italic;
+}
+#content{
+  text-align: center;
+  margin-right: 410px;
+  font-family: georgia;
+  font-style: oblique;
+  font-weight: bold;
+} 
+#navigation{
+  text-align: right;
+  margin-right: 44px;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 16px;
+}
+body {
+    background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg");
+}
+img.photo {
+  float: left;
+  height: 380px; 
+  width:320px;
+  border-radius: 1em;
+}
+
+
+
+
+
+
+
