@@ -36,6 +36,12 @@ a.active {
 #caption{
   font-style: italic;
 }
+caption { 
+    display: table-caption;
+    text-align: left;
+    caption-side: bottom;
+    font-style: italic;
+}
 #content{
   text-align: center;
   margin-right: 410px;
@@ -57,7 +63,8 @@ img.photo {
   float: left;
   height: 380px; 
   width:320px;
-  border-radius: 1em;
+  padding: 18px;
+  margin: 18px;
 }
 
 
